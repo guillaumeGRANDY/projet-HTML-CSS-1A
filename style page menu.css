@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'font//ChampagneEtLimousine';
+  src: url('Champagne & Limousines.ttf');
+}
+
+@font-face {
+	font-family: 'font//GeosansLight';
+	src: url('GeosansLight.ttf');
+}
+
+/*NAVBAR début*/
+.navbar {
+	width: 100%;
+	background-color: #555;
+	overflow: auto;
+	margin-bottom:0px !important;
+  }
+  @media (min-width: 768px){
+	.navbar {
+		border-radius: 0px !important;
+	}
+	.navbar-item{
+		margin-top:10px;
+		margin-right:5vw;
+	}
+	.first-item{
+		margin-left:2vw;
+	}
+	.logo{
+		margin-left:0.25vw;
+	}
+
+}
+@media (min-width:1900px){
+	.last-item{
+		margin-left:43%;
+		margin-right: 0px;
+	}
+
+}
+.icone{
+	width: 40px;
+}
+
+  .navbar a {
+	float: left;
+	text-align: center;
+		margin-top:0;
+	line-height: 40px;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 19px;
+	transition-duration: 0.4s;
+  }
+
+
+
+  .navbar a:hover {
+	background-color: #00561B;
+  }
+
+  .active {
+	background-color: #00561B;
+  }
+  
+
+  @media screen and (max-width: 500px) {
+	.navbar a {
+	  float: none;
+	  display: block;
+	}
+  }
+/*NAVBAR fin*/
+
+/*footer*/
+footer{
+	width:100% ;
+	background-color:#727070 ;
+	text-align: center;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	font-size: medium;
+	font-family: 'GeosansLight';
+
+}
+
+.lien{
+	color:aqua;
+}
+.lien:hover{
+	color:aquamarine;
+}
+/*footer fin*/
